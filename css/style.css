@@ -1,0 +1,329 @@
+@font-face {
+    font-family: 'Metropolis';
+    src: url('../fonts/Metropolis-Medium.eot');
+    src: url('../fonts/Metropolis-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Metropolis-Medium.woff2') format('woff2'),
+    url('../fonts/Metropolis-Medium.woff') format('woff'),
+    url('../fonts/Metropolis-Medium.ttf') format('truetype'),
+    url('../fonts/Metropolis-Medium.svg#Metropolis-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Metropolis';
+    src: url('../fonts/Metropolis-Light.eot');
+    src: url('../fonts/Metropolis-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Metropolis-Light.woff2') format('woff2'),
+    url('../fonts/Metropolis-Light.woff') format('woff'),
+    url('../fonts/Metropolis-Light.ttf') format('truetype'),
+    url('../fonts/Metropolis-Light.svg#Metropolis-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Bebas Neue Regular';
+    src: url('../fonts/bebas_neue_regular.eot'); /* IE 9 Compatibility Mode */
+    src: url('../fonts/bebas_neue_regular.eot?#iefix') format('embedded-opentype'), /* IE < 9 */ url('../fonts/bebas_neue_regular.woff2') format('woff2'), /* Super Modern Browsers */ url('../fonts/bebas_neue_regular.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */ url('../fonts/bebas_neue_regular.ttf') format('truetype'), /* Safari, Android, iOS */ url('../fonts/bebas_neue_regular.svg#bebas_neue_regular') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.65);
+    padding: 0 15px;
+
+}
+
+header .container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+/** header_top **/
+header .container .header_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: #464646;
+    padding: 25px 0 19px;
+    border-bottom: solid 2px #464646;
+}
+
+header .container .header_top .logo {
+    display: block;
+
+}
+
+header .container .header_top .logo img {
+    width: 100%;
+    display: block;
+}
+
+header .container .header_top form {
+    max-width: 200px;
+}
+
+header .container .header_top form input, button {
+    display: inline-block;
+
+}
+
+header .container .header_top form input {
+    padding: 14px 0 14px;
+    margin-right: -25px;
+    background-color: #ebebeb;
+    border: solid 1px #554746;
+    width: 200px;
+    border-radius: 3px;
+    position: relative;
+}
+
+header .container .header_top form input::placeholder {
+    font: 15px/15px 'Metropolis';
+    padding-left: 15px;
+}
+
+header .container .header_top form button {
+    margin-top: 5px;
+    background-color: #ebebeb;
+    height: 35px;
+    border: none;
+    position: absolute;
+
+}
+
+header .container .header_top form button i {
+    color: #f82c2c;
+    font-size: 17px;
+
+}
+
+header .container .header_top .store, .log_in, .sign_up {
+    display: block;
+    text-decoration: none;
+    width: 170px;
+    font: 15px/20px 'Metropolis';
+    padding: 12px;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 3px;
+}
+
+header .container .header_top a i {
+    margin-right: 8px;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.store {
+    background-color: #252525;
+    margin-left: 20px;
+
+}
+
+.log_in {
+    background-color: #464646;
+
+}
+
+.sign_up {
+    background-color: #fa090a;
+}
+
+/** header_top **/
+
+/** header_menu **/
+header .container .header_menu {
+    padding: 17px 0 12px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header_menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.header_menu ul li {
+    display: block;
+    margin-right: 20px;
+}
+
+.header_menu ul li:after {
+    content: "";
+    margin-top: 10px;
+    display: block;
+    height: 4px;
+    width: 1%;
+    background-color: transparent;
+    transition: 0.5s;
+}
+
+.header_menu ul li:hover:after {
+    width: 100%;
+    background-color: #ff0000;
+}
+
+.header_menu ul li a {
+    text-decoration: none;
+    font: 25px/25px 'Bebas Neue Regular';
+    color: #ffffff;
+}
+
+.header_menu .socials{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header_menu .socials a {
+    height: 30px;
+    width: 30px;
+    background-color: #fa090a;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 5px;
+    margin-left: 15px;
+
+}
+
+.header_menu .socials a i {
+    color: black;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+/** header_menu **/
+
+/** main_content **/
+.page_title{
+    padding: 66px 15px 21px;
+
+
+}
+.page_title .container{
+    max-width: 1170px;
+    margin: 0 auto;
+    border-bottom: solid 3px #ff0000;
+    padding-bottom: 33px;
+}
+.page_title .container h1{
+    margin: 0 auto;
+    font: 51px/51px 'Bebas Neue Regular' ;
+    text-align: center;
+    color: #fff;
+}
+
+/** main_content **/
+
+
+/** footer **/
+footer{
+    background-color: #010006;
+    padding:72px 0 60px;
+
+}
+footer .container .footer_top{
+    max-width: 1170px ;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+footer .container .footer_top p{
+    color: #ffff;
+    text-align: center;
+    text-transform: uppercase;
+    font: 19px/20px 'Metropolis';
+    font-weight: 300;
+    margin-bottom: 32px;
+}
+footer .container .footer_top form{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+
+}
+footer .container .footer_top form input{
+    display: block;
+    width: 390px;
+    height: 42px;
+    margin: 0 15px;
+}
+footer .container .footer_top form input::placeholder{
+    color: #959595;
+    font: 17px/17px 'Metropolis';
+    font-weight: 300;
+    padding-left: 30px;
+
+
+}
+footer .container .footer_top form button{
+    background-color: #ff0000;
+    border: none;
+    display: block;
+    width: 310px;
+    color: #ffff;
+    font: 20px/20px 'Metropolis';
+    height: 52px;
+    margin: 0 15px;
+}
+.footer_content{
+    background-color: #252525;
+    border-bottom: solid 1px #464647;
+    border-top: solid 1px #464647;
+    padding: 50px 15px 62px;
+}
+.footer_content .container{
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_content .container img{
+    width: 100%;
+    display: block;
+    margin-bottom: 44px;
+}
+.footer_content .container .socials{
+    display: flex;
+    justify-content: space-between;
+}
+.footer_content .container .socials a{
+    color: black;
+    text-decoration: none;
+    display: block;
+    width: 42px;
+    height: 42px;
+    background-color:#ff0000 ;
+    text-align: center;
+    font-size: 28px;
+    line-height: 28px;
+    padding-top: 7px;
+
+
+}
+.footer_content ul{
+    display: inline-block;
+    list-style: none;
+}
+.footer_content ul li a {
+    text-decoration: none;
+    color: #fff;
+    font: 14px/34px 'Metropolis' ;
+}
+
+/** footer **/
