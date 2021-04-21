@@ -8,11 +8,6 @@
         align-items: center;
     }
 
-    header .container .header_menu,header .container .header_menu nav ul{
-        text-align: center;
-        align-items: center;
-    }
-
 }
 @media only screen and (max-width: 768px) {
     header .container .header_top {
@@ -26,9 +21,16 @@
 
     header .container .header_menu {
         flex-flow: column;
+        align-items: center;
+        text-align: center;
 
     }
 
+    header .container .header_menu ul {
+        align-items: center;
+        flex-flow: wrap;
+        justify-content: center;
+    }
     .footer_content .container {
         flex-direction: column-reverse;
         text-align: center;
