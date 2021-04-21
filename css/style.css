@@ -69,7 +69,13 @@ header .container .header_top .logo img {
 }
 
 header .container .header_top form {
-    max-width: 200px;
+    width: 208px;
+    height: 42px;
+    border-radius: 4px;
+    background-color: #ebebeb;
+    border: solid 1px #554746;
+    display: flex;
+    justify-content: space-between;
 }
 
 header .container .header_top form input, button {
@@ -78,44 +84,44 @@ header .container .header_top form input, button {
 }
 
 header .container .header_top form input {
-    padding: 14px 0 14px;
-    margin-right: -25px;
-    background-color: #ebebeb;
-    border: solid 1px #554746;
-    width: 200px;
-    border-radius: 3px;
-    position: relative;
+    line-height: 42px;
+    font-size: 15px ;
+    background-color: transparent;
+    border: none;
+    width: 75%;
+    outline: none;
+    padding-left: 15px;
+    text-transform: uppercase;
 }
 
 header .container .header_top form input::placeholder {
     font: 15px/15px 'Metropolis';
-    padding-left: 15px;
+
 }
 
 header .container .header_top form button {
-    margin-top: 5px;
-    background-color: #ebebeb;
-    height: 35px;
+    line-height: 42px;
+    background-color: transparent;
+    height: 42px;
     border: none;
-    position: absolute;
-
+    width: 23%;
 }
 
 header .container .header_top form button i {
     color: #f82c2c;
     font-size: 17px;
-
+    background-color: transparent;
 }
 
 header .container .header_top .store, .log_in, .sign_up {
     display: block;
     text-decoration: none;
     width: 170px;
-    font: 15px/20px 'Metropolis';
-    padding: 12px;
+    font: 15px/42px 'Metropolis';
+
     color: #ffffff;
     text-align: center;
-    border-radius: 3px;
+    border-radius: 4px;
 }
 
 header .container .header_top a i {
@@ -127,7 +133,7 @@ header .container .header_top a i {
 
 .store {
     background-color: #252525;
-    margin-left: 20px;
+
 
 }
 
@@ -150,11 +156,11 @@ header .container .header_menu {
 
 }
 
-.header_menu ul {
+.header_menu nav ul {
     list-style: none;
     display: flex;
     justify-content: space-between;
-    width: 100%;
+
 }
 
 .header_menu ul li {
@@ -262,6 +268,9 @@ footer .container .footer_top form input{
     width: 390px;
     height: 42px;
     margin: 0 15px;
+    border-radius: 4px;
+    color: #959595;
+    font: 17px/17px 'Metropolis';
 }
 footer .container .footer_top form input::placeholder{
     color: #959595;
@@ -280,6 +289,7 @@ footer .container .footer_top form button{
     font: 20px/20px 'Metropolis';
     height: 52px;
     margin: 0 15px;
+    border-radius: 4px;
 }
 .footer_content{
     background-color: #252525;
