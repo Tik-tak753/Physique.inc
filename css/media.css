@@ -7,6 +7,11 @@
         flex-flow: wrap;
         align-items: center;
     }
+    header .container .header_menu ul {
+        align-items: center;
+        flex-flow: wrap;
+        justify-content: center;
+    }
 
 }
 @media only screen and (max-width: 768px) {
@@ -26,11 +31,7 @@
 
     }
 
-    header .container .header_menu ul {
-        align-items: center;
-        flex-flow: wrap;
-        justify-content: center;
-    }
+
     .footer_content .container {
         flex-direction: column-reverse;
         text-align: center;
