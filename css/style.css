@@ -57,6 +57,21 @@ header .container .header_top {
     padding: 25px 0 19px;
     border-bottom: solid 2px #464646;
 }
+/*"типо" бургер*/
+.bar_wrapper{
+    display: none;
+}
+.bar_wrapper a img{
+    width: 100%;
+}
+.bar_wrapper span{
+    display: block;
+    font-size: 31px;
+    text-align: center;
+    color: #ffff;
+    padding: 10px;
+}
+/*"типо" бургер*/
 
 header .container .header_top .logo {
     display: block;
